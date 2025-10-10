@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Menu from '../assets/menu.png';
-import Button from '../utils/Button';
+import Button from './Button';
 
 function Navbar() {
     const [toggle, setToggle] = useState(false);
