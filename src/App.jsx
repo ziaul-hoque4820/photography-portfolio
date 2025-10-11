@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './component/Navbar'
 import BannerSection from './section/BannerSection'
 import QuoteSection from './section/QuoteSection'
+import PortfolioSection from './section/PortfolioSection'
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Navbar />
             <BannerSection />
             <QuoteSection />
+            <PortfolioSection />
         </>
     )
 }
