@@ -15,7 +15,7 @@ function BannerSection() {
 
             {/* Content */}
             <div className="relative z-10 text-center px-4 sm:px-8 md:px-12 max-w-screen-md">
-                <h1 className="mb-4 text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight text-black">
+                <h1 className="mb-4 text-4xl sm:text-5xl lg:text-7xl font-serif drop-shadow-md tracking-tight text-black">
                     Wedding Photographer
                 </h1>
                 <p className="mb-8 text-lg sm:text-xl text-black">
