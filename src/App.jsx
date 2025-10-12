@@ -4,6 +4,7 @@ import BannerSection from './section/BannerSection'
 import QuoteSection from './section/QuoteSection'
 import PortfolioSection from './section/PortfolioSection'
 import Stories from './section/Stories'
+import Awards from './section/Awards'
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <QuoteSection />
             <PortfolioSection />
             <Stories />
+            <Awards />
         </>
     )
 }
