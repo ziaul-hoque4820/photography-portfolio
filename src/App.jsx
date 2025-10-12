@@ -9,6 +9,7 @@ import Advertisement from './section/Advertisement'
 import About from './section/About'
 import MyStyle from './section/MyStyle'
 import Albums from './section/Albums'
+import InstagramImage from './section/InstagramImage'
 
 function App() {
     return (
@@ -24,6 +25,8 @@ function App() {
             <MyStyle />
             <QuoteSection />
             <Albums />
+            <Advertisement />
+            <InstagramImage />
         </>
     )
 }
