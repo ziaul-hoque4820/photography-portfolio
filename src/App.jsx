@@ -6,6 +6,7 @@ import PortfolioSection from './section/PortfolioSection'
 import Stories from './section/Stories'
 import Awards from './section/Awards'
 import Advertisement from './section/Advertisement'
+import About from './section/About'
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Stories />
             <Awards />
             <Advertisement />
+            <About />
         </>
     )
 }
