@@ -13,7 +13,7 @@ export default function PortfolioSection() {
         >
             <div className="text-center mb-12">
                 <h2 className="text-4xl font-serif text-gray-800">Portfolio</h2>
-                <div className="w-16 h-[2px] bg-yellow-600 mx-auto mt-3"></div>
+                <div className="w-30 h-[2px] bg-yellow-600 mx-auto mt-3"></div>
             </div>
 
             {/* Grid Layout */}
