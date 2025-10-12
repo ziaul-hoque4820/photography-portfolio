@@ -7,6 +7,8 @@ import Stories from './section/Stories'
 import Awards from './section/Awards'
 import Advertisement from './section/Advertisement'
 import About from './section/About'
+import MyStyle from './section/MyStyle'
+import Albums from './section/Albums'
 
 function App() {
     return (
@@ -19,6 +21,9 @@ function App() {
             <Awards />
             <Advertisement />
             <About />
+            <MyStyle />
+            <QuoteSection />
+            <Albums />
         </>
     )
 }
