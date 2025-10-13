@@ -11,6 +11,7 @@ import MyStyle from './section/MyStyle'
 import Albums from './section/Albums'
 import InstagramImage from './section/InstagramImage'
 import WeddingTips from './section/WeddingTips'
+import LocationList from './section/LocationList'
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
             <Advertisement />
             <InstagramImage />
             <WeddingTips />
+            <LocationList />
         </>
     )
 }
