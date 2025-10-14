@@ -12,21 +12,9 @@ function Navbar() {
             <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
                 {/* Logo */}
                 <div className="flex items-center cursor-pointer select-none">
-                    <div className="text-lg sm:text-xl md:text-3xl font-bold flex space-x-0.5">
-                        <span className="text-[#079992]">Z</span>
-                        <span className="text-[#38ada9]">i</span>
-                        <span className="text-[#78e08f]">a</span>
-                        <span className="text-[#b8e994]">u</span>
-                        <span className="text-[#A26E26]">l</span>
-                        <span className="text-[#60a3bc]">'</span>
-                        <span className="text-[#E5BA5E]">s</span>
-                        <span className="text-[#82ccdd]">&nbsp;</span>
-                        <span className="text-[#f8c291]">P</span>
-                        <span className="text-[#fad390]">h</span>
-                        <span className="text-[#f6b93b]">o</span>
-                        <span className="text-[#fa983a]">t</span>
-                        <span className="text-[#e58e26]">o</span>
-                    </div>
+                    <p className="text-2xl font-serif font-bold text-gray-500 tracking-wide">
+                        Ziaul<span className="text-yellow-500">.dev</span>
+                    </p>
                 </div>
 
                 {/* Menu icon (only small screen) */}

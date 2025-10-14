@@ -15,6 +15,7 @@ import ContactForm from './section/ContactForm'
 import Footer from './section/Footer'
 import FristAddSec from './section/FristAddSec'
 import SecondAddSec from './section/SecondAddSec'
+import ContactsSection from './section/ContactsSection'
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
             <InstagramImage />
             <WeddingTips />
             <LocationList />
+            <ContactsSection />
             <ContactForm />
             <Footer />
         </>
