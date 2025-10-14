@@ -1,13 +1,12 @@
 import React from 'react'
 import Button from '../component/Button'
-import BannerPhoto from '../assets/advertisement-1.jpeg'
 
-function Advertisement() {
+function Advertisement({onHeaeding, onBackground}) {
     return (
         <section
             className="relative w-full min-h-[50vh] bg-cover bg-no-repeat flex items-center justify-center px-6 py-10 my-5"
             style={{
-                backgroundImage: `url(${BannerPhoto})`,
+                backgroundImage: `url(${onBackground})`,
                 backgroundPosition: 'right center',
             }}
         >
@@ -17,7 +16,7 @@ function Advertisement() {
             {/* Content */}
             <div className="relative z-10 container mx-auto flex flex-col items-center text-center xl:items-start xl:text-left xl:ml-20 max-w-3xl">
                 <h3 className="text-3xl lg:text-4xl font-serif text-black drop-shadow-md">
-                    Want to hire me to capture your big day?
+                    {onHeaeding}
                 </h3>
 
                 <div className="w-24 h-[3px] bg-yellow-600 mx-auto xl:mx-0 mt-3 mb-6"></div>

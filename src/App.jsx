@@ -5,7 +5,6 @@ import QuoteSection from './section/QuoteSection'
 import PortfolioSection from './section/PortfolioSection'
 import Stories from './section/Stories'
 import Awards from './section/Awards'
-import Advertisement from './section/Advertisement'
 import About from './section/About'
 import MyStyle from './section/MyStyle'
 import Albums from './section/Albums'
@@ -13,6 +12,9 @@ import InstagramImage from './section/InstagramImage'
 import WeddingTips from './section/WeddingTips'
 import LocationList from './section/LocationList'
 import ContactForm from './section/ContactForm'
+import Footer from './section/Footer'
+import FristAddSec from './section/FristAddSec'
+import SecondAddSec from './section/SecondAddSec'
 
 function App() {
     return (
@@ -23,16 +25,17 @@ function App() {
             <PortfolioSection />
             <Stories />
             <Awards />
-            <Advertisement />
+            <FristAddSec />
             <About />
             <MyStyle />
             <QuoteSection />
             <Albums />
-            <Advertisement />
+            <SecondAddSec />
             <InstagramImage />
             <WeddingTips />
             <LocationList />
             <ContactForm />
+            <Footer />
         </>
     )
 }
