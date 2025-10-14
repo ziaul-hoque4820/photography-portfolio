@@ -14,7 +14,7 @@ function LocationList() {
             {/* Section Title */}
             <div className="text-center mb-10 md:mb-14">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-gray-800 relative inline-block">
-                    Stories
+                    Top Location List
                     <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-[3px] bg-yellow-600 rounded-full"></span>
                 </h2>
             </div>
@@ -49,7 +49,7 @@ function LocationList() {
                             {/* Divider line */}
                             <span
                                 className="absolute left-1/2 top-1/2 -translate-x-1/2 w-0 h-[2px] bg-yellow-500 
-                    transition-all duration-700 ease-in-out group-hover:w-1/2"
+                    transition-all duration-700 ease-in-out group-hover:w-1/2 my-1"
                             ></span>
 
                             {/* Bottom text */}

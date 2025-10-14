@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundImage from "../assets/form-banner.jpeg"; // তোমার background image এখানে বসাও
+import BackgroundImage from "../assets/form-banner.jpeg";
 
 function ContactForm() {
     return (
@@ -46,7 +46,7 @@ function ContactForm() {
 
                     <button
                         type="submit"
-                        className="w-full py-3 rounded-md font-semibold text-white bg-gradient-to-r from-yellow-600 to-yellow-400 hover:from-yellow-500 hover:to-yellow-300 transition-all duration-300"
+                        className="w-full py-3 font-semibold text-white bg-gradient-to-r from-[#A26E26] to-[#E5BA5E] transition-all duration-500 ease-in-out hover:from-[#E5BA5E] hover:to-[#A26E26] shadow-md hover:shadow-lg cursor-pointer"
                     >
                         Submit
                     </button>
