@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/f
 
 function Footer() {
     return (
-        <footer className="bg-gray-900 text-gray-300 py-10 px-6 sm:px-10 lg:px-20">
+        <footer className="bg-gray-500 text-gray-300 py-10 px-6 sm:px-10 lg:px-20">
             {/* Top Section */}
             <div className="flex flex-col sm:flex-row items-center sm:items-start justify-between gap-6 border-b border-gray-700 pb-6">
 
@@ -47,7 +47,7 @@ function Footer() {
             </div>
 
             {/* Bottom Section */}
-            <div className="text-center text-sm text-gray-500 mt-6">
+            <div className="text-center text-sm text-gray-200 mt-6">
                 <p>
                     © {new Date().getFullYear()} Ziaul.dev — All Rights Reserved | Designed & Developed with ❤️ by <span className="text-yellow-500 font-medium">Ziaul Hoque</span>
                 </p>
