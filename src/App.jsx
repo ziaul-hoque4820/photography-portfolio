@@ -17,6 +17,7 @@ import FristAddSec from './section/FristAddSec'
 import SecondAddSec from './section/SecondAddSec'
 import ContactsSection from './section/ContactsSection'
 import PricingQuoteSection from './section/PricingQuoteSection'
+import PricingSection from './section/PricesingSection'
 
 function App() {
     return (
@@ -31,6 +32,7 @@ function App() {
             <About />
             <MyStyle />
             <PricingQuoteSection />
+            <PricingSection />
             <Albums />
             <SecondAddSec />
             <InstagramImage />
