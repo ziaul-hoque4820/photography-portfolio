@@ -16,6 +16,7 @@ import Footer from './section/Footer'
 import FristAddSec from './section/FristAddSec'
 import SecondAddSec from './section/SecondAddSec'
 import ContactsSection from './section/ContactsSection'
+import PricingQuoteSection from './section/PricingQuoteSection'
 
 function App() {
     return (
@@ -29,7 +30,7 @@ function App() {
             <FristAddSec />
             <About />
             <MyStyle />
-            <QuoteSection />
+            <PricingQuoteSection />
             <Albums />
             <SecondAddSec />
             <InstagramImage />

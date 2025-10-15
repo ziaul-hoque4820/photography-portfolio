@@ -8,7 +8,7 @@ function Navbar() {
     const showNav = () => setToggle(!toggle);
 
     return (
-        <nav className="fixed top-0 w-full bg-gray-50 flex p-4 z-50 shadow">
+        <nav className="fixed top-0 w-full bg-gray-50 flex p-4 lg:px-20 z-50 shadow">
             <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
                 {/* Logo */}
                 <div className="flex items-center cursor-pointer select-none">

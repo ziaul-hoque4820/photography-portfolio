@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function QuoteSection() {
+function PricingQuoteSection() {
     return (
         <section className="bg-gray-50 py-12 sm:py-16">
             <div className="max-w-4xl mx-auto px-4">
@@ -9,8 +9,14 @@ export default function QuoteSection() {
                     <div className="flex-1 border-t border-gray-300"></div>
                 </div>
 
+                {/*heading text*/}
+                <div className="text-center mb-5 mt-5">
+                    <h3 className="text-4xl font-serif text-gray-800">Pricing</h3>
+                    <div className="w-20 h-[2px] bg-yellow-600 mx-auto mt-3"></div>
+                </div>
+
                 {/* quote text */}
-                <blockquote className="mt-8 text-center">
+                <blockquote className="mt-5 text-center">
                     <p className="mx-auto text-gray-700 italic text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed px-4">
                         I am passionate about wedding photography. I strive to catch each moment of love, joy, and happiness making your special day memorable.
                     </p>
@@ -44,3 +50,5 @@ export default function QuoteSection() {
         </section>
     )
 }
+
+export default PricingQuoteSection
