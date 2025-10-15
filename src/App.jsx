@@ -18,6 +18,7 @@ import SecondAddSec from './section/SecondAddSec'
 import ContactsSection from './section/ContactsSection'
 import PricingQuoteSection from './section/PricingQuoteSection'
 import PricingSection from './section/PricesingSection'
+import TestimonialSection from './section/TestimonialSection'
 
 function App() {
     return (
@@ -35,6 +36,7 @@ function App() {
             <PricingSection />
             <Albums />
             <SecondAddSec />
+            <TestimonialSection />
             <InstagramImage />
             <WeddingTips />
             <LocationList />
