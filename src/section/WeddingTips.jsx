@@ -1,14 +1,12 @@
 import React from 'react'
-import Weading1 from '../assets/wedding-1.jpeg'
-import Weading2 from '../assets/wedding-2.jpeg'
-import BannerPhoto from '../assets/wedding-banner.jpeg'
 import Button from '../component/Button'
+import { getImageUrl } from '../utils/getImage'
 
 function WeddingTips() {
     return (
         <section className="w-full py-8 bg-cover bg-no-repeat"
             style={{
-                backgroundImage: `url(${BannerPhoto})`,
+                backgroundImage: `url(${getImageUrl("wedding-banner.jpeg")})`,
             }}
         >
             {/* Container with max width */}
@@ -26,7 +24,7 @@ function WeddingTips() {
                         {/* Image */}
                         <div className="w-full md:w-1/2 h-[250px] md:h-full">
                             <img
-                                src={Weading1}
+                                src={getImageUrl("wedding-1.jpeg")}
                                 alt="wedding-img"
                                 className="w-full h-full object-cover"
                             />
@@ -53,7 +51,7 @@ function WeddingTips() {
                         {/* Image */}
                         <div className="w-full md:w-1/2 h-[250px] md:h-full">
                             <img
-                                src={Weading2}
+                                src={getImageUrl("wedding-2.jpeg")}
                                 alt="wedding-img"
                                 className="w-full h-full object-cover"
                             />

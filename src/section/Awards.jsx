@@ -1,13 +1,12 @@
 import React from 'react'
-import BannerAward from '../assets/awarde-banner.jpeg'
-import Award from '../assets/award.jpeg'
+import { getImageUrl } from '../utils/getImage'
 
 function Awards() {
     return (
         <section
             className="relative w-full bg-cover bg-center flex items-center justify-center py-20 px-6 mt-4"
             style={{
-                backgroundImage: `url(${BannerAward})`,
+                backgroundImage: `url(${getImageUrl("awarde-banner.jpeg")})`,
             }}
         >
             {/* Content */}
@@ -26,7 +25,7 @@ function Awards() {
                     {[1, 2, 3].map((i) => (
                         <div key={i} className="text-center p-5 mx-auto">
                             <img
-                                src={Award}
+                                src={getImageUrl("award.jpeg")}
                                 alt={`award-${i}`}
                                 className="w-40 h-40 md:w-48 md:h-48 object-cover text-center mx-auto"
                             />

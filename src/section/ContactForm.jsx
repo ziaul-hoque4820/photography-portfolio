@@ -1,12 +1,12 @@
 import React from "react";
-import BackgroundImage from "../assets/form-banner.jpeg";
+import { getImageUrl } from '../utils/getImage'
 
 function ContactForm() {
     return (
         <section
             className="relative w-full bg-cover bg-center py-20 px-6 flex items-center justify-center"
             style={{
-                backgroundImage: `url(${BackgroundImage})`,
+                backgroundImage: `url(${getImageUrl("form-banner.jpeg")})`,
             }}
         >
             {/* Overlay for better contrast */}

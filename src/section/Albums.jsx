@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../component/Button'
-import AlbumPhoto from '../assets/album-img.jpeg'
+import { getImageUrl } from '../utils/getImage'
 
 function Albums() {
     return (
@@ -29,7 +29,7 @@ function Albums() {
                 {/* Right side - Image */}
                 <div className="w-full lg:w-1/2 flex justify-center lg:my-auto">
                     <img
-                        src={AlbumPhoto}
+                        src={getImageUrl("album-img.jpeg")}
                         alt="about-img"
                         className="rounded-md object-cover w-full max-w-md sm:max-w-lg lg:max-w-none"
                     />

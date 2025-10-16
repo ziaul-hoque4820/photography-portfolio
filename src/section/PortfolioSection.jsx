@@ -1,7 +1,5 @@
 import React from 'react';
-import Portfolio1 from '../assets/portfolio1.jpg';
-import Portfolio2 from '../assets/portfolio2.jpg';
-import PortfolioBack from '../assets/portfolio-back.jpg';
+import { getImageUrl } from '../utils/getImage'
 
 export default function PortfolioSection() {
     return (
@@ -9,7 +7,7 @@ export default function PortfolioSection() {
             id='portfolio'
             className="relative bg-cover bg-center bg-no-repeat lg:py-16 md:py-12 py-8 px-6"
             style={{
-                backgroundImage: "url(PortfolioBack)",
+                backgroundImage: `url(${getImageUrl("portfolio-back.jpg")})`,
             }}
         >
             <div className="text-center mb-12">
@@ -22,7 +20,7 @@ export default function PortfolioSection() {
                 {/* Card 1 */}
                 <div className="relative group overflow-hidden rounded-xl shadow-lg">
                     <img
-                        src={Portfolio1}
+                        src={getImageUrl("portfolio1.jpg")}
                         alt="Wedding"
                         className="w-full h-[450px] object-cover transition-transform duration-700 ease-in-out group-hover:scale-125"
                     />
@@ -42,7 +40,7 @@ export default function PortfolioSection() {
                 {/* Card 2 */}
                 <div className="relative group overflow-hidden rounded-xl hover:shadow-lg">
                     <img
-                        src={Portfolio2}
+                        src={getImageUrl("portfolio2.jpg")}
                         alt="Engagement"
                         className="w-full h-[450px] object-cover transition-transform duration-700 ease-in-out group-hover:scale-125"
                     />

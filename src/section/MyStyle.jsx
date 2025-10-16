@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from '../component/Button'
-import MyStylePhoto1 from '../assets/style-1.jpeg'
-import MyStylePhoto2 from '../assets/style-2.jpeg'
+import { getImageUrl } from '../utils/getImage'
 
 function MyStyle() {
     return (
@@ -32,7 +31,7 @@ function MyStyle() {
                         {/* Image 1 */}
                         <div className="overflow-hidden rounded-b-sm shadow-sm transition-transform duration-300 hover:scale-105">
                             <img
-                                src={MyStylePhoto1}
+                                src={getImageUrl("style-1.jpeg")}
                                 alt="style-image1"
                                 className="w-full h-auto object-cover"
                             />
@@ -41,7 +40,7 @@ function MyStyle() {
                         {/* Image 2 */}
                         <div className="overflow-hidden rounded-sm shadow-sm transition-transform duration-300 hover:scale-105">
                             <img
-                                src={MyStylePhoto2}
+                                src={getImageUrl("style-2.jpeg")}
                                 alt="style-image2"
                                 className="w-full h-auto object-cover"
                             />

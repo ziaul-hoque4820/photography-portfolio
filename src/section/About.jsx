@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../component/Button'
-import AboutPhoto from '../assets/about-img.jpeg'
+import { getImageUrl } from '../utils/getImage'
 
 function About() {
     return (
@@ -10,7 +10,7 @@ function About() {
                 {/* Left side - Image */}
                 <div className="w-full lg:w-1/2 flex justify-center lg:my-auto">
                     <img
-                        src={AboutPhoto}
+                        src={getImageUrl("about-img.jpeg")}
                         alt="about-img"
                         className="rounded-md object-cover w-full max-w-md sm:max-w-lg lg:max-w-none"
                     />

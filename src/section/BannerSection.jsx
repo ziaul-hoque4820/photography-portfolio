@@ -1,13 +1,13 @@
 import React from 'react'
 import Button from '../component/Button'
-import BannerPhoto from '../assets/banner.jpeg'
+import { getImageUrl } from '../utils/getImage'
 
 function BannerSection() {
     return (
         <section
             className="relative w-full h-screen bg-cover bg-center flex items-center justify-center mt-4"
             style={{
-                backgroundImage: `url(${BannerPhoto})`,
+                backgroundImage: `url(${getImageUrl("banner.jpeg")})`,
             }}
         >
             {/* Overlay (dark layer for better text visibility) */}
