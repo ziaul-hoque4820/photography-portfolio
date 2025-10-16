@@ -4,7 +4,7 @@ import AboutPhoto from '../assets/about-img.jpeg'
 
 function About() {
     return (
-        <section className="w-full py-16 px-6 bg-white">
+        <section id='about' className="w-full py-16 px-6 bg-white">
             <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12">
 
                 {/* Left side - Image */}

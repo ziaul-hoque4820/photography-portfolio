@@ -29,32 +29,32 @@ function Navbar() {
                 <ul
                     className={`${toggle ? 'flex' : 'hidden'} flex-col justify-center items-center w-full mt-3 md:flex md:flex-row md:mt-0 md:w-auto md:space-x-10`}
                 >
-                    <a href="#">
+                    <a href="#portfolio">
                         <li className="border-t border-t-amber-300 font-medium w-full flex justify-center p-2.5 md:border-none md:p-0 hover:text-[#E5BA5E]">
                             Portfolio
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="#stories">
                         <li className="border-t border-t-amber-300 font-medium w-full flex justify-center p-2.5 md:border-none md:p-0 hover:text-[#E5BA5E]">
                             Stories
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="#about">
                         <li className="border-t border-t-amber-300 font-medium w-full flex justify-center p-2.5 md:border-none md:p-0 hover:text-[#E5BA5E]">
                             About
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="#pricing">
                         <li className="border-t border-t-amber-300 font-medium w-full flex justify-center p-2.5 md:border-none md:p-0 hover:text-[#E5BA5E]">
                             Pricing
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="#journal">
                         <li className="border-t border-t-amber-300 font-medium w-full flex justify-center p-2.5 md:border-none md:p-0 hover:text-[#E5BA5E]">
                             Journal
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="#contacts">
                         <li className="border-t border-t-amber-300 font-medium w-full flex justify-center p-2.5 md:border-none md:p-0 hover:text-[#E5BA5E]">
                             Contacts
                         </li>

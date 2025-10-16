@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactsSection() {
     return (
-        <section className="bg-white py-12 md:py-16 lg:py-20 px-6 sm:px-10 lg:px-24 xl:px-40">
+        <section id="contacts" className="bg-white py-12 md:py-16 lg:py-20 px-6 sm:px-10 lg:px-24 xl:px-40">
             <div className="text-center relative">
                 {/* Top Divider */}
                 <div className="mx-auto w-56 sm:w-[300px] md:w-[500px] lg:w-[700px] xl:w-[800px] h-[1px] bg-neutral-700 mb-6"></div>

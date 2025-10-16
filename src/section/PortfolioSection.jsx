@@ -6,6 +6,7 @@ import PortfolioBack from '../assets/portfolio-back.jpg';
 export default function PortfolioSection() {
     return (
         <section
+            id='portfolio'
             className="relative bg-cover bg-center bg-no-repeat lg:py-16 md:py-12 py-8 px-6"
             style={{
                 backgroundImage: "url(PortfolioBack)",

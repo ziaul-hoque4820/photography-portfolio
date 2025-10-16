@@ -10,7 +10,7 @@ function LocationList() {
     const images = [Weading1, Weading2, Weading3, Weading4, Weading5, Weading6];
 
     return (
-        <section className="py-10 md:py-14 lg:py-20 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-52 bg-white">
+        <section id="journal" className="py-10 md:py-14 lg:py-20 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-52 bg-white">
             {/* Section Title */}
             <div className="text-center mb-10 md:mb-14">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-gray-800 relative inline-block">

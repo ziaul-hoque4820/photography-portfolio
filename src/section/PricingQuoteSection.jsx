@@ -2,7 +2,7 @@ import React from 'react'
 
 function PricingQuoteSection() {
     return (
-        <section className="bg-gray-50 py-12 sm:py-16">
+        <section id='pricing' className="bg-gray-50 py-12 sm:py-16">
             <div className="max-w-4xl mx-auto px-4">
                 {/* top thin rule */}
                 <div className="flex items-center">

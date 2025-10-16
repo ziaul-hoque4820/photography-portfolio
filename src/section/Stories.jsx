@@ -45,7 +45,7 @@ const data = [
 
 function Stories() {
     return (
-        <section className="lg:py-16 md:py-12 py-8 px-8 md:px-16 lg:px-24 xl:px-40 bg-white">
+        <section id="stories" className="lg:py-16 md:py-12 py-8 px-8 md:px-16 lg:px-24 xl:px-40 bg-white">
             {/* Section Heading */}
             <div className="text-center mb-12">
                 <h2 className="text-4xl font-serif text-gray-800">Stories</h2>
