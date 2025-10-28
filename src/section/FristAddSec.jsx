@@ -6,7 +6,7 @@ function FristAddSec() {
     return (
         <Advertisement 
         onHeaeding= "Want to hire me to capture your big day?"
-        onBackground={getImageUrl("advertisement-1.jpeg")}
+        onBackground={getImageUrl("advertisement-1.jpg")}
         />
     )
 }

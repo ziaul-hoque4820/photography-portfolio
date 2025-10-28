@@ -1,8 +1,8 @@
 import React from 'react'
-import Instagram1 from '../assets/instagram-img-1.jpeg'
-import Instagram2 from '../assets/instagram-img-2.jpeg'
-import Instagram3 from '../assets/instagram-img-3.jpeg'
-import Instagram4 from '../assets/instagram-img-4.jpeg'
+import Instagram1 from '../assets/instagram-img-1.jpg'
+import Instagram2 from '../assets/instagram-img-2.jpg'
+import Instagram3 from '../assets/instagram-img-3.jpg'
+import Instagram4 from '../assets/instagram-img-4.jpg'
 import Button from '../component/Button'
 
 function InstagramImage() {

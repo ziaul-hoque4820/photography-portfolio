@@ -33,7 +33,7 @@ function PricingSection() {
         <section
             className="relative w-full bg-cover bg-no-repeat bg-center flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 py-16 md:py-20 lg:py-32"
             style={{
-                backgroundImage: `url(${getImageUrl("pricing-background.jpeg")})`,
+                backgroundImage: `url(${getImageUrl("pricing-background.jpg")})`,
                 backgroundPosition: 'right center',
             }}
         >

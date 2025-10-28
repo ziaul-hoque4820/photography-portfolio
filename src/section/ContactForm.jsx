@@ -6,7 +6,7 @@ function ContactForm() {
         <section
             className="relative w-full bg-cover bg-center py-20 px-6 flex items-center justify-center"
             style={{
-                backgroundImage: `url(${getImageUrl("form-banner.jpeg")})`,
+                backgroundImage: `url(${getImageUrl("form-banner.jpg")})`,
             }}
         >
             {/* Overlay for better contrast */}

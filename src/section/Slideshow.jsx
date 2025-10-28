@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import Slide1 from "../assets/slide-show-1.jpeg";
-import Slide2 from "../assets/slide-show-2.jpeg";
+import Slide2 from "../assets/slide-show-2.jpg";
 import Slide3 from "../assets/slide-show-3.jpeg";
 
 function Slideshow() {

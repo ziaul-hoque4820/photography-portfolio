@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { getImageUrl } from "../utils/getImage";
-import BannerPhoto from '../assets/sidebar-banner-img.jpeg'
+import BannerPhoto from '../assets/sidebar-banner-img.jpg'
 
 const testimonials = [
     {

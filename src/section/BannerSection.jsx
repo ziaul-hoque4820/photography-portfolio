@@ -7,7 +7,7 @@ function BannerSection() {
         <section
             className="relative w-full h-screen bg-cover bg-center flex items-center justify-center mt-4"
             style={{
-                backgroundImage: `url(${getImageUrl("banner.jpeg")})`,
+                backgroundImage: `url(${getImageUrl("banner.jpg")})`,
             }}
         >
             {/* Overlay (dark layer for better text visibility) */}

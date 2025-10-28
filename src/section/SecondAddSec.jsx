@@ -6,7 +6,7 @@ function SecondAddSec() {
     return (
         <Advertisement
             onHeaeding="Looking for a professional photographer?"
-            onBackground={getImageUrl("advertisement-2.jpeg")}
+            onBackground={getImageUrl("advertisement-2.jpg")}
         />
     )
 }

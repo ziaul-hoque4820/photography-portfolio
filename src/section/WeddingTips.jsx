@@ -6,7 +6,7 @@ function WeddingTips() {
     return (
         <section className="w-full py-8 bg-cover bg-no-repeat"
             style={{
-                backgroundImage: `url(${getImageUrl("wedding-banner.jpeg")})`,
+                backgroundImage: `url(${getImageUrl("wedding-banner.jpg")})`,
             }}
         >
             {/* Container with max width */}
