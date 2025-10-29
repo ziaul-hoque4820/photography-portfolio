@@ -19,7 +19,7 @@ function ContactsSection() {
                         +880 1234 657 985
                     </p>
                     <p className="text-base sm:text-lg text-gray-600 hover:text-yellow-600 transition-colors duration-300 cursor-pointer">
-                        ziaul.dev@email.com
+                        user.name@email.com
                     </p>
                 </div>
 
