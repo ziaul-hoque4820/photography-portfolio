@@ -36,7 +36,7 @@ In the next version, I plan to integrate a **backend system** to display **dynam
 ## 🚀 Live Demo
 
 🔗 **Live Website:** [Photography Portfolio](https://photography-portfolio-teal-three.vercel.app/)  
-📁 **GitHub Repository:** [View Code on GitHub](https://github.com/ziaul-hoque4820/photography-portfolio.git)
+📁 **GitHub Repository:** [View Code on GitHub](https://github.com/ziaulhoquepatwary/photography-portfolio.git)
 
 ---
 
@@ -52,7 +52,7 @@ In the next version, I plan to integrate a **backend system** to display **dynam
 
 **Ziaul Hoque Patwary**  
 📧 Email: [**ziaul.dev@gmail.com**] 
-🔗 GitHub: [ziaul-hoque4820](https://github.com/ziaul-hoque4820)
+🔗 GitHub: [ziaulhoquepatwary](https://github.com/ziaulhoquepatwary)
 
 ---
 
